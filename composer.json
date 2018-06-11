@@ -15,5 +15,12 @@
         "psr-4": {
             "Ekown\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ekown\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
